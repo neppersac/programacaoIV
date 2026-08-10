@@ -1,2 +1,2 @@
 # programacaoIV
-Disciplina 
+Disciplina do Curso Engenharia da Computação
