@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import './App.css'
 
 function Dashboard() {
   const navigate = useNavigate()
@@ -9,11 +10,10 @@ function Dashboard() {
   }
 
   return (
-    <div style={{ padding: '2rem', textAlign: 'center' }}>
+    <div>
       <h1>Painel Principal (Dashboard)</h1>
-      <p>Bem-vindo! Você está logado no sistema.</p>
-      
-      <button onClick={handleLogout} style={{ marginTop: '1rem', padding: '0.5rem 1rem' }}>
+            
+      <button onClick={handleLogout}>
         Sair / Voltar ao Login
       </button>
     </div>
